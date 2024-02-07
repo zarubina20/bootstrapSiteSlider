@@ -45,6 +45,6 @@ a {
     top: 50%;
     left: 50%;
     width: 121%;
-    border-top: 2px solid black; /* Цвет и толщина линии */
+    border-top: 2px solid black;
     transform: translate(-50%, -50%) rotate(116deg);
   }
