@@ -44,7 +44,7 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 122%;
-    border-top: 1px solid black; /* Цвет и толщина линии */
-    transform: translate(-50%, -50%) rotate(124deg);
+    width: 121%;
+    border-top: 2px solid black; /* Цвет и толщина линии */
+    transform: translate(-50%, -50%) rotate(116deg);
   }
