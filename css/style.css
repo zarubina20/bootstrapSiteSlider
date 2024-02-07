@@ -12,3 +12,15 @@
     width: 10px;
     height: 10px;
 }
+
+a {
+    text-decoration: none;
+}
+
+.text-lightbrown {
+    color: #c9b593;
+}
+
+.half-height-container {
+    min-height: 50vh;
+}
