@@ -21,6 +21,21 @@ a {
     color: #c9b593;
 }
 
+
 .half-height-container {
-    min-height: 50vh;
+    min-height: 40vh;
+}
+
+
+
+
+
+.rotate-15 {
+    position: relative;
+    right: 22px;
+}
+
+.bi-send::before {
+    content: "\f6c0";
+    transform: rotate(44deg);
 }
