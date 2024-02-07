@@ -26,10 +26,6 @@ a {
     min-height: 40vh;
 }
 
-
-
-
-
 .rotate-15 {
     position: relative;
     right: 22px;
@@ -39,3 +35,16 @@ a {
     content: "\f6c0";
     transform: rotate(44deg);
 }
+
+.strikethrough {
+    position: relative;
+  }
+  .strikethrough::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 122%;
+    border-top: 1px solid black; /* Цвет и толщина линии */
+    transform: translate(-50%, -50%) rotate(124deg);
+  }
